@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@RequestMapping("/")
     String home() {
-        return "Sample MicroService -Version 1";
+        return "Sample MicroService -Version 2";
     }
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);

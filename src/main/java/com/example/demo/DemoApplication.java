@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@RequestMapping("/")
     String home() {
-        return "Sample Application - Version3";
+        return "Sample Application - Version 4";
     }
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
